@@ -4,7 +4,7 @@ public class carro {
 
     // Atributos 
     private double velocidade;
-    private String modelo;
+   
 
     //Método
     public void acelerar(double v){

@@ -5,24 +5,52 @@ public class App {
 
     public static void main(String[] args) {
 
-        carro c = new carro();
-        carro d = new carro();
+//         carro c = new carro();
+//         carro d = new carro();
 
-        System.out.println("Velocidade" + c.obterVelocidade());
+//         System.out.println("Velocidade" + c.obterVelocidade());
 
-        c.acelerar(10);
+//         c.acelerar(10);
 
-        System.out.println("Velocidade" + d.obterVelocidade());
+//         System.out.println("Velocidade" + d.obterVelocidade());
 
-        Contador t = new Contador();
+//         Contador t = new Contador();
 
-        System.out.println(t.obter());
+//         System.out.println(t.obter());
 
-        t.incrementar(0);
-        t.incrementar(0);
+//         t.incrementar(0);
+//         t.incrementar(0);
 
-        System.out.println(t.obter());
-    }
+//         System.out.println(t.obter());
+//     }
+
+        
+        // Buzz b = new Buzz();
+
+        // System.out.println(b.laser());
+
+        // System.out.println("Capacete aberto? " + b.isCapaceteAberto());
+        // b.mudarCapacete();
+        // System.out.println("Capacete aberto? " + b.isCapaceteAberto());
+
+        // Buzz zurg = new Buzz();
+
+        // System.out.println("Capacete aberto? " + zurg.isCapaceteAberto());
 
 
+        // Caneta c = new Caneta();
+
+        // c.setCor("Azul");
+
+        // System.out.println(c.usandoCaneta());
+
+        Pessoa p = new Pessoa();
+
+        p.setCpf("123.456.789-00");
+        p.setEmail("aaaaaa@gmail.com");
+        p.setNome("DAive");
+
+        System.out.println(p);
+
+}
 }
