@@ -2,20 +2,44 @@ package ads.poo;
 public class Caneta {
 
     // Atributos
-    private String cor = "preto";
-    private int carga = 10;
+    private String cor;
+    private int carga;
 
     // Métodos
 
-    public String usandoCaneta(){
-        if (carga == 0) {
-            return "Não há tinta";
-        } else {
-            carga--;
-            return "Desenhando na cor " + cor;
-        }
-        
+   
+    public Caneta(String cor, int carga) {
+        this.carga = carga;
+        this.cor = cor;
     }
+
+
+    public Caneta(String cor) {
+        // this.carga = 100;
+        // this.cor = cor;
+        this(cor, 100);
+    }
+
+    public Caneta() {
+        // this.carga = 100;
+        // this.cor = "vermelho";
+        this("vermelho", 100);
+    }
+   
+   
+   
+    // public String usandoCaneta(){
+    //     if (carga == 0) {
+    //         return "Não há tinta";
+    //     } else {
+    //         carga--;
+    //         return "Desenhando na cor " + cor;
+    //     }
+        
+    
+    // }
+
+    
 
     public String getCor() {
         return cor;

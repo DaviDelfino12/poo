@@ -44,13 +44,25 @@ public class App {
 
         // System.out.println(c.usandoCaneta());
 
-        Pessoa p = new Pessoa();
+    //     Pessoa p = new Pessoa("Daive", "aaaaaa@gmail.com", "123.456.789-00");
 
-        p.setCpf("123.456.789-00");
-        p.setEmail("aaaaaa@gmail.com");
-        p.setNome("DAive");
+    //    System.out.println(p);
 
-        System.out.println(p);
+        // Caneta bic = new Caneta ("azul", 100);
+
+        CarroF1 ferrari = new CarroF1();
+
+        ferrari.acelerar(10);
+
+        System.out.println(ferrari.getvelocidadeAtual());
+
+        ferrari.acelerar(300);
+        
+        System.out.println(ferrari.getvelocidadeAtual());
+
+
+
+        
 
 }
 }
