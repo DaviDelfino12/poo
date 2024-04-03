@@ -5,6 +5,10 @@ package ads.poo;
 
 public class App {
     public static void main(String[] args) {
+        Horario horario1 = new Horario(0, 30, 0);
+        System.out.println(horario1.toString());
+        System.out.println(horario1.horarioEmSegundos());
+        System.out.println(horario1.porExtenso());
         
        
     }

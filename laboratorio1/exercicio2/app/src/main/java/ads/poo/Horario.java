@@ -83,10 +83,35 @@ public class Horario {
         }
     }
 
-    @Override
+    
     public String toString() {
         return hr + ":" + min + ":" + seg;
     }
+
+    public String porExtenso() {
+        String extenso = hrE[hr] + " horas," ;
+        return extenso;
+    }
+    
+    
+    
+    
+    public long horarioEmSegundos() {
+        long segE = hr*60*60 + min*60 + seg;
+        return segE;
+    }
+
+    public long diferença(Horario outro) {
+        return Math.abs(this.horarioEmSegundos() - outro.horarioEmSegundos());
+    }
+
+    // public String porExtenso(){
+    //     StringBuilder sb = new StringBuilder();
+    //     sb.append(hrE[this.hr]);
+    //     sb.append("horas(s)");
+    //     sb.append(minE[this.min]);
+    //     sb.append(null)
+    // }
 
  
 
