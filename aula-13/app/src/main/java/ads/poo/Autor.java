@@ -11,6 +11,12 @@ public class Autor {
         this.nacionalidade = nacionalidade;
     }
 
+
+    @Override
+    public String toString() {
+        return String.format("Nome: %s,", null);
+    }
+
     
     
 }
